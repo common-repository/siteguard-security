@@ -1,0 +1,40 @@
+table.events .column-type, table.events .column-count {
+    width: 10%;
+}
+
+table.events .column-plugin {
+    width: 15%;
+}
+
+table.events .column-primary > a {
+    font-weight: bold;
+}
+
+div.wrap dl {
+    margin: 0 2em;
+}
+
+div.wrap dd {
+    margin: 0 2em 1em 2em;
+}
+
+div.wrap dt {
+    font-weight: bold;
+}
+
+#siteguard-security-dashboard table {
+    width: 100%;
+    text-align: center;
+}
+
+#siteguard-security-dashboard table thead, #siteguard-security-dashboard table tfoot {
+    font-weight: bold;
+}
+
+#siteguard-security-dashboard table td:first-child, #siteguard-security-dashboard table th:first-child {
+    text-align: left;
+}
+
+.rtl #siteguard-security-dashboard table td:first-child, .rtl #siteguard-security-dashboard table th:first-child {
+    text-align: right;
+}
